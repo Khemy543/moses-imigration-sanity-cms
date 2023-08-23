@@ -10,9 +10,14 @@ export default {
     },
     {
       name: 'body',
-      type: 'text',
+      type: 'array',
       title: 'body',
-    },
+      of: [
+        {
+          type: 'block'
+        }
+      ]
+      },
     {
       name: 'image',
       type: 'image',
