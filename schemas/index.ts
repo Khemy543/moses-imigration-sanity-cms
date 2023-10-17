@@ -9,10 +9,16 @@ import provinceNormineeProgram from './provinceNormineeProgram'
 import expressEntry from './expressEntry'
 import atlanticProgram from './atlanticProgram'
 import ruralAndNothernImmigration from './ruralAndNothernImmigration'
+import whyImmigrationConsultant from './whyImmigrationConsultant'
+import privacyPolicy from './privacyPolicy'
+import bewareOfFraud from './bewareOfFraud'
 
 export const schemaTypes = [
     home,
     aboutUs,
+    whyImmigrationConsultant,
+    privacyPolicy,
+    bewareOfFraud,
     economyClass,
     refugeeClass,
     permit,

@@ -4,6 +4,11 @@ export default {
   title: 'Immigration Category',
   fields: [
     {
+      name: 'myId',
+      type: 'number',
+      title: 'Position',
+    },
+    {
       name: 'title',
       type: 'string',
       title: 'title',
@@ -25,6 +30,16 @@ export default {
       options: {
         hotspot: true,
       },
+    },
+    {
+      name: 'component',
+      type: 'string',
+      title: 'Component',
+    },
+    {
+      name: 'description',
+      type: 'string',
+      title: 'Description',
     },
   ],
 }

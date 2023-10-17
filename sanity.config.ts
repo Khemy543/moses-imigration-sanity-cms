@@ -11,7 +11,7 @@ export default defineConfig({
   title: 'dimgrey-porpoise',
 
   projectId: '0kxkm5hc',
-  dataset: 'production',
+  dataset: 'development',
 
   plugins: [deskTool(), visionTool(), ...(isDev ? devOnlyPlugins : [])],
 
