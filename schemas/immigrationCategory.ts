@@ -41,5 +41,37 @@ export default {
       type: 'string',
       title: 'Description',
     },
+    {
+      name: 'section_bg_color',
+      type: 'string',
+      title: 'Background Color of Section',
+    },
+    {
+      name: 'list',
+      type: 'array',
+      title: 'Resource List',
+      of: [
+        {
+          type: 'object',
+          fields: [
+            {
+              name: 'name',
+              title: 'Name',
+              type: 'string',
+            },
+            {
+              name: 'icon',
+              title: 'Icon Class',
+              type: 'string',
+            },
+            {
+              name: 'url',
+              title: 'Url',
+              type: 'string',
+            },
+          ],
+        },
+      ],
+    },
   ],
 }

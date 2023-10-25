@@ -4,27 +4,48 @@ export default {
   title: 'About Us',
   fields: [
     {
+      name: 'myId',
+      type: 'number',
+      title: 'Position',
+    },
+    {
       name: 'title',
       type: 'string',
-      title: 'title',
+      title: 'Title',
+    },
+    {
+      name: 'subtitle',
+      type: 'string',
+      title: 'Subtitle',
     },
     {
       name: 'body',
       type: 'array',
-      title: 'body',
+      title: 'Body',
       of: [
         {
-          type: 'block'
-        }
-      ]
+          type: 'block',
+        },
+      ],
     },
     {
       name: 'image',
       type: 'image',
-      title: 'image',
+      title: 'Image',
       options: {
         hotspot: true,
       },
     },
+    {
+      name: 'component',
+      type: 'string',
+      title: 'Component',
+    },
+    {
+      name: 'description',
+      type: 'string',
+      title: 'Description',
+    },
   ],
 }
+
