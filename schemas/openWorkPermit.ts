@@ -1,7 +1,7 @@
 export default {
-  name: 'rural-and-northern-immigration-pilot',
+  name: 'open-work-permit',
   type: 'document',
-  title: 'Rural And Northern Immigration Pilot',
+  title: 'Open Work Permit',
   fields: [
     {
       name: 'myId',
@@ -32,14 +32,14 @@ export default {
       },
     },
     {
-      name: 'section_bg_color',
-      type: 'string',
-      title: 'Background Color of Section',
-    },
-    {
       name: 'component',
       type: 'string',
       title: 'Component',
+    },
+    {
+      name: 'section_bg_color',
+      type: 'string',
+      title: 'Background Color of Section',
     },
     {
       name: 'description',

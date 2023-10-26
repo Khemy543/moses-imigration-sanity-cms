@@ -1,7 +1,7 @@
 import home from './home'
 import aboutUs from './aboutUs'
 import economyClass from './economyClass'
-import permit from './permist'
+import permit from './openWorkPermit'
 import refugeeClass from './refugeeClass'
 import sponsorship from './sponsorship'
 import immigrationCategory from './immigrationCategory'
@@ -12,6 +12,11 @@ import ruralAndNothernImmigration from './ruralAndNothernImmigration'
 import whyImmigrationConsultant from './whyImmigrationConsultant'
 import privacyPolicy from './privacyPolicy'
 import bewareOfFraud from './bewareOfFraud'
+import LMIA from './LMIA'
+import LMIAExempt from './LMIAExempt '
+import LMIAGlobalStream from './LMIAGlobalStream'
+import studyPermit from './studyPermit'
+
 
 export const schemaTypes = [
     home,
@@ -27,5 +32,9 @@ export const schemaTypes = [
     provinceNormineeProgram,
     expressEntry,
     atlanticProgram,
+    LMIA,
+    studyPermit,
+    LMIAExempt,
+    LMIAGlobalStream,
     ruralAndNothernImmigration
 ]
