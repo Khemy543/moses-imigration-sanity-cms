@@ -24,7 +24,7 @@ export default {
       title: 'Body',
       of: [
         {
-          type: 'block',
+          type: 'block'
         },
       ],
     },

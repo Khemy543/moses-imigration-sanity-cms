@@ -3,7 +3,7 @@ import aboutUs from './aboutUs'
 import economyClass from './economyClass'
 import permit from './openWorkPermit'
 import refugeeClass from './refugeeClass'
-import sponsorship from './sponsorship'
+import familyClass from './familyClass'
 import immigrationCategory from './immigrationCategory'
 import provinceNormineeProgram from './provinceNormineeProgram'
 import expressEntry from './expressEntry'
@@ -27,7 +27,7 @@ export const schemaTypes = [
     economyClass,
     refugeeClass,
     permit,
-    sponsorship,
+    familyClass,
     immigrationCategory,
     provinceNormineeProgram,
     expressEntry,
