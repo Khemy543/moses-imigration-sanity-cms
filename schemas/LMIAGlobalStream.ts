@@ -54,6 +54,11 @@ export default {
           hotspot: true,
         },
       },
+      {
+        name: 'noc',
+        title: 'National Occupations Classification (NOC)',
+        type: 'table',
+      }, 
     ],
   }
   
